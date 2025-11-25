@@ -12,15 +12,10 @@ python test_all.py
 
 
 ## Добавление нового отчета
+
 ###Чтобы добавить новый отчёт:
 1. Создайте функцию в reports.py по образцу performance_report
 2. Функция должна принимать список строк и возвращать таблицу с заголовком
 3. Добавьте условие в get_report_function:
 
-def get_report_function(report_name):
-    if report_name == "performance":
-        return performance_report
-    elif report_name == "new_report":  # новый отчёт
-        return new_report_function
-    else:
-        raise ValueError(f"Unknown report: {report_name}")
+<img width="505" height="158" alt="image" src="https://github.com/user-attachments/assets/6c845875-e990-4a09-826f-abfc7486a1e1" />
